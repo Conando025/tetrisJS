@@ -1,0 +1,21 @@
+body{
+	background-color: #333;
+}
+
+.center {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height: 100vh;
+}
+
+#playfield{
+	width:45%;
+	height: 90%;
+	background-color: #151515;
+}
+
+#wrapper{
+	width:min(75vh, 75vw);
+	height: min(75vh, 75vw);
+}
